@@ -7,7 +7,7 @@ function calcular() {
     let consumo = 10.6
     let calculo = km/consumo * gasolina
 
-    res.innerHTML = `<p> Ei, Adriano tu gastou ${calculo.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})} em gasolina, visse. <\p>`
+    res.innerHTML = `<p> Ei, você gastou ${calculo.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})} de gasolina, visse. <\p>`
     
     res.innerHTML += `<p> Seu onix está fazendo ${consumo} por quilometro. <\p>`
 }
